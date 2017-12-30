@@ -26,7 +26,7 @@ gulp.task('deps.css', () => {
     'node_modules/font-awesome/css/font-awesome.min.css',
     'node_modules/admin-lte/bootstrap/css/bootstrap.min.css',
     'node_modules/admin-lte/dist/css/AdminLTE.min.css',
-    'node_modules/admin-lte/dist/css/skins/_all-skin.min.css',
+    'node_modules/admin-lte/dist/css/skins/_all-skins.min.css',
   ])
   .pipe(uglifycss( {"uglifyComments:": true}))
   .pipe(concat('deps.min.css'))
