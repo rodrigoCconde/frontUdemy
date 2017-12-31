@@ -1,1 +1,2 @@
-angular.module('primeiraApp', ['ui.router', 'ngAnimate', 'toastr'])
+var minhaApp = angular.module('primeiraApp', ['ui.router', 'ngAnimate', 'toastr'])
+

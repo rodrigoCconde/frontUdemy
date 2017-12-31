@@ -7,7 +7,7 @@ require('./gulpTasks/deps')
 require('./gulpTasks/server')
 
 gulp.task('default', () => {
-  if(util.env.production){
+  if(util.env.production) {
     sequence('deps', 'app')
   } else {
     sequence('deps', 'app', 'server')
